@@ -13,6 +13,7 @@ def only_odd_numbers(arr):
 def only_even_numbers(arr):
     if not isinstance(arr, list):
         return []
+    # iterating through each number in list
     output_arr = []
     for num in arr:
         # if number has remainder of 0, then the number is even
